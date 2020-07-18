@@ -1,0 +1,40 @@
+:root{
+    --gabys-color: #87399E;
+    --lisas-color: #CD6CEB;
+}
+.home-container{
+   display: flex;
+   flex-direction: row;
+   flex: left; 
+   align-items: stretch;
+   flex: 1;
+   font-family: 'Ewert', cursive;
+   font-size: 400px;
+   text-decoration: none;
+   color: black;
+}
+.gaby-side{
+background-color: var(--gabys-color);
+width: 50vw;
+height: 88vh;
+color: black;
+
+}
+.letter{
+    color: black;
+} 
+    
+
+.gletter, .lletter{
+    margin-top: 170px;
+    margin-left: 13.50vw;
+    
+}
+.lisa-side{
+    background-color: var(--lisas-color);
+    width: 50vw;
+    color: black;
+}
+.lisa-side, .gaby-side{
+    
+}
