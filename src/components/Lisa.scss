@@ -1,0 +1,22 @@
+:root{
+    --gabys-color: #87399E;
+    --lisas-color: #CD6CEB;
+}
+.dashboardl{
+    width:800px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Ewert', cursive;
+    font-size: 40px;
+    color:var(--lisas-color);
+    margin-top: 20vh;
+}
+.linkcontainer{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    justify-content: space-between;
+}
